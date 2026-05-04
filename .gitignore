@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+
+# Fetched data (keep committed fixtures and sample CSV)
+data/*.csv
+!data/sample_events.csv
+!data/fixtures/
+
+# Frontend build (handled by frontend/.gitignore too)
+frontend/dist/
+frontend/node_modules/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Claude Code
+.claude/
+
+# Internal project docs — not for public consumption
+AGENTS.md
+BUILD_PLAN.md
+LINKEDIN_GITHUB_COPY.md
+PRD_Event_Driven_Trading_Simulation_Engine.md
+README_DRAFT.md
